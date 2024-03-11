@@ -1,0 +1,15 @@
+@import '../../extends/justify';
+
+ul {
+    @extend %space-between-section;
+    list-style: none;
+    gap: 20px;
+    li {
+        padding: 20px;
+        border: 1px solid black;
+        a {
+            text-decoration: none;
+            color: steelblue;
+        }
+    }
+}

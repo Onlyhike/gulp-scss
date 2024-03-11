@@ -1,0 +1,8 @@
+@import '../mixins/centered-content-container';
+
+.content-section {
+    &-type-centered{
+        @include centered-content-container(600px, 100%);
+    }
+    padding: 20px 40px;
+} 
